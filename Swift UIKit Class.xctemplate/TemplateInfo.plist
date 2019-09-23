@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>UIKitSubclass</string>
+			<string>cocoaTouchSubclass</string>
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
@@ -62,9 +62,51 @@
 			<string>checkbox</string>
 			<key>RequiredOptions</key>
 			<dict>
-				<key>UIKitSubclass</key>
+				<key>cocoaTouchSubclass</key>
 				<array>
 					<string>UIView</string>
+					<string>UIViewController</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaTouchSubclass</key>
+				<array>
+					<string>UIView</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Storyboard</string>
+			<key>Name</key>
+			<string>Also create Storyboard file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a Storyboard file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaTouchSubclass</key>
+				<array>
 					<string>UIViewController</string>
 				</array>
 			</dict>
