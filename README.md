@@ -22,4 +22,4 @@ This template supports UIView and UIViewController. You can optionally set the p
 |UIViewController |optional      |×        |optional   |
 
 # License
-AutoPreviewable is available under the MIT license. See the LICENSE file for more info.
+XcodePreviewsTemplate is available under the MIT license. See the LICENSE file for more info.
