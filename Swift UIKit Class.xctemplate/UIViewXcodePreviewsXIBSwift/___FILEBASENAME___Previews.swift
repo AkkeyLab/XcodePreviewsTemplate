@@ -1,9 +1,10 @@
 //___FILEHEADER___
 
-import SwiftUI
 import UIKit
+#if canImport(SwiftUI) && DEBUG
+import SwiftUI
 
-#if DEBUG
+@available(iOS 13, *)
 struct ___FILEBASENAMEASIDENTIFIER___: PreviewProvider {
     static var previews: some View {
         Group {
@@ -22,6 +23,7 @@ struct ___FILEBASENAMEASIDENTIFIER___: PreviewProvider {
     static var platform: PreviewPlatform? = .iOS
 }
 
+@available(iOS 13, *)
 extension ___VARIABLE_productName___: UIViewRepresentable {
     typealias UIViewType = ___VARIABLE_productName___
 
