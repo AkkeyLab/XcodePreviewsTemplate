@@ -25,8 +25,7 @@ extension ___VARIABLE_productName___: UIViewControllerRepresentable {
     typealias UIViewType = ___VARIABLE_productName___
 
     func makeUIViewController(context: Context) -> ___VARIABLE_productName___ {
-        return UIStoryboard(name: String(describing: self), bundle: Bundle.main)
-            .instantiateInitialViewController() as! ___VARIABLE_productName___
+        return .init()
     }
 
     func updateUIViewController(_ uiViewController: ___VARIABLE_productName___, context: Context) {
