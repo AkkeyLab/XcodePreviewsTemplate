@@ -28,8 +28,7 @@ extension ___VARIABLE_productName___: UIViewRepresentable {
     typealias UIViewType = ___VARIABLE_productName___
 
     func makeUIView(context: Context) -> ___VARIABLE_productName___ {
-        return UINib(nibName: String(describing: String(describing: self)), bundle: nil)
-            .instantiate(withOwner: nil, options: nil)[0] as! ___VARIABLE_productName___
+        return .init()
     }
 
     func updateUIView(_ uiView: ___VARIABLE_productName___, context: Context) {
